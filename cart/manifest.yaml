@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: cart
-        image: harithagudisa/cart:1.0.0
+        image: harithagudisa/cart:1.0.1
         envFrom:
         - configMapRef:
             name: cart
